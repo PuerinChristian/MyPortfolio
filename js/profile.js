@@ -11,5 +11,17 @@ window.PROFILE = {
     ],
     email: "puerinchristian606@gmail.com",
     facebook: "https://www.facebook.com/cyanfinch.puerin",
-    phone: "+63 948 083 1066"
+    phone: "+639480831066"
 };
+
+// Keep project cards equal-height within each grid row.
+var projectCardStyles = document.createElement("style");
+projectCardStyles.textContent = ".project-grid { align-items: stretch; } .project-grid > .project { display: flex; flex-direction: column; } .project-grid > .project > .project-body { flex: 1; }";
+document.head.appendChild(projectCardStyles);
+
+// Point the resume button to the PDF stored in the repository.
+var resumeLink = document.querySelector('.hero-actions a[download]');
+if (resumeLink) {
+    resumeLink.href = "ChristianPuerin%20Resume.pdf";
+    resumeLink.download = "ChristianPuerin Resume.pdf";
+}

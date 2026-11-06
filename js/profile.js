@@ -11,7 +11,7 @@ window.PROFILE = {
     ],
     email: "puerinchristian606@gmail.com",
     facebook: "https://www.facebook.com/cyanfinch.puerin",
-    phone: "+639480831066"
+    phone: "+639951028490"
 };
 
 // Keep project cards equal-height within each grid row.

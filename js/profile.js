@@ -1,8 +1,8 @@
 // Your profile content. Edit this file and re-upload it to update the site.
 window.PROFILE = {
     name: "Christian Puerin",
-    lead: "BSIT student at Cebu Eastern College. I build web applications with Django and I'm learning system administration and networking. I'm looking for an internship where I can learn and contribute.",
-    intro: "BSIT student at Cebu Eastern College. I build web applications with Django and I'm learning system administration and networking. I'm looking for an internship where I can learn and contribute.",
+    lead: "BSIT student at Cebu Eastern College. I build web applications with Django and I'm learning system administration and networking. I'm looking for an internship where I can learn and contrib[...]
+    intro: "BSIT student at Cebu Eastern College. I build web applications with Django and I'm learning system administration and networking. I'm looking for an internship where I can learn and contri[...]
     interests: [
         "Web applications",
         "Django",
